@@ -64,8 +64,7 @@ describe('DashboardComponent', () => {
   });
 
   it('should NOT have heroes before ngOnInit', () => {
-    expect(component.heroes.length).toBe(0,
-      'should not have heroes before ngOnInit');
+    expect(component.heroes.length).toBe(0,'should not have heroes before ngOnInit');
   });
 
   it('should call heroService', async(() => {
